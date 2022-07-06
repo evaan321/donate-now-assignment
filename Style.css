@@ -1,3 +1,8 @@
+
+body {
+    margin: 0 ;
+    padding: 0;
+}
 h1 {
 
     font-family: 'Gulzar', serif;
@@ -8,7 +13,17 @@ h1 {
 
    color: crimson;
    text-align: center;
+
+   margin: 0;
+   padding: 0;
     
+}
+
+h2{
+
+    color: crimson;
+
+    font-size: 40px;
 }
 
 p{  
@@ -33,7 +48,8 @@ text-align: center;
     background-size: cover;
 
    height: 800px;
- 
+  
+   margin-top: 0;
 
 
 }
@@ -94,15 +110,33 @@ h4 {
 
     color: grey;
 }
-hr {
-    border: 2%;
-    height: 1px;
-    width: 800px;
-    color: grey;
 
+.tkamount {
+ 
+    margin: 40px 35%;
+
+    border: none;
+
+    border-bottom: 1px solid gray;
+
+   width: 600px;
+
+   text-align: center;
+
+   padding-top: 20px;
+
+   font-size: 20px;
+
+   font-weight: 300;
+
+  background-color: rgb(253, 253, 253);
+
+
+
+}
 
    
-}
+
 .special {
 background-color: rgb(214, 189, 189);
 
@@ -174,4 +208,96 @@ text-align: justify;
 .color3{
 
     background-color: rgb(250, 141, 98);
+}
+
+
+footer {
+    background-color: black;
+
+    padding-top: 200px;
+
+    margin-top: 30px;
+}
+
+.footerh1{
+
+    font-size: 30px;
+} 
+
+.subbutton {
+    text-align: center;
+
+
+    background-image: linear-gradient(pink, orange);
+    border-radius: 5px;
+
+    padding: 17px;
+
+    color: white;
+   
+   
+}
+.email-input{
+
+    padding: 15px;
+
+    
+
+  text-align: left;
+
+    font-size: 15px;
+
+   background-color: gainsboro;
+
+   font-weight: 800;
+
+}
+
+.emaildiv{
+
+ 
+
+    margin-left: 35%
+
+    
+}
+
+.lastsec {
+
+    background-color: rgb(214, 176, 176);
+
+    padding: 50px;
+
+    margin-left: 30%;
+
+    margin-right: 30%;
+}
+
+.ullist{
+
+    color: darkorange;
+
+    font-size: 30px;
+
+    
+
+   
+}
+
+.checkboxsec { margin-left: 18%;
+
+    
+
+    display: flex;
+}
+.checkboximg {
+
+
+}
+
+.uldiv {
+
+    background-color: rgb(231, 209, 200);
+
+    
 }
